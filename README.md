@@ -8,7 +8,7 @@ One-page site by [60 Minute Sites](https://60minutesites.com). **Demo built 23 S
 - **Phone (the only conversion on the page):** (803) 661-3537
 - **Email:** acsmhvac@outlook.com
 - **Address:** 356A Edgefield Road, North Augusta, SC 29841
-- **Repo:** `git@github.com:corbanCodes/ac-service-master.git`
+- **Repo:** `git@github.com:corbanCodes/a-c-servicemaster.git`
 - **Domain:** not registered yet — the page currently assumes `acservicemaster.com` in its
   canonical/Open Graph tags. Change those if he buys something else.
 
@@ -28,14 +28,20 @@ add back.
 | `credits.html` | Photo credits and licences (linked from the footer) |
 | `assets/styles.css` | All styling |
 | `assets/img/` | Licensed stock photography (see `ATTRIBUTION.md`) |
-| `_redirects` | Netlify SPA-style fallback to `/index.html` |
+| `netlify.toml` | Netlify config — no build step, publish from the repo root |
 | `DEMO-NOTES.md` | What is real, what is stock, what to ask him for |
 | `ATTRIBUTION.md` | Photo credits and licences |
 
 ## Local preview
 
 ```
-python3 -m http.server 5091 --directory "60MS Client Sites/ac-service-master"
+python3 -m http.server 5091 --directory "60MS Client Sites/a-c-servicemaster"
 ```
 
 Then open http://localhost:5091
+
+## Deploy
+
+Netlify → **Add new site → Import an existing project** → GitHub → `corbanCodes/a-c-servicemaster`.
+No build command and no publish directory to set — `netlify.toml` already says publish from the
+repo root. `404.html` is picked up automatically. Every push to `main` redeploys.
