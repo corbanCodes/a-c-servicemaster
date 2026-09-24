@@ -397,9 +397,6 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;line-height:1.12;col
 .how-steps .n{flex:none;width:38px;height:38px;border-radius:11px;background:var(--navy);color:#fff;font-family:var(--font-display);font-weight:700;font-size:17px;display:grid;place-items:center}
 .how-steps b{display:block;font-family:var(--font-display);font-size:18px;color:var(--navy-ink);margin-bottom:3px}
 .how-steps p{color:var(--ink-soft);font-size:15.5px;margin:0}
-.pullquote{margin-top:28px;padding:20px 24px;background:var(--flame-soft);border-left:4px solid var(--flame);border-radius:0 12px 12px 0}
-.pullquote p{font-family:var(--font-display);font-size:19px;color:var(--navy-ink);line-height:1.4;margin:0}
-.pullquote small{display:block;color:var(--ink-soft);font-size:14px;margin-top:8px;font-family:var(--font-body)}
 
 /* ---------- training band ---------- */
 .training-band{background:var(--navy-ink);color:#cfe0f4;position:relative;overflow:hidden}

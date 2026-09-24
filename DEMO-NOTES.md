@@ -18,8 +18,11 @@ the top of every page — remove it before launch** (see "Before this goes live"
 - He is **starting over in South Carolina**; the Tennessee operation is finished
 - He has **no lab right now** — the training lab is a plan, not a place
 - Much of the eventual lab equipment **comes off the real service work** he does in SC
-- His own explanation of the trade, quoted in the pull-quote:
-  *"They primarily just move heat. Either from outside to inside or vice versa."*
+- How he described the trade on the call — that a system just moves heat, outside to inside or
+  the other way round. This is the **idea** behind the "How it works" section. It was briefly on
+  the page as a pull-quote attributed to him and that was wrong: a line from a scattered phone
+  note is not a statement he has approved for publication, and set in quotation marks it read as
+  odd rather than plain-spoken. **Removed 24 Sep.** The section keeps the idea in ordinary prose.
 
 ## Real — verified from his Experience.com profile
 
@@ -150,7 +153,11 @@ conditioner moves heat rather than making cold — is there for three reasons:
 3. It is the **bridge to the school.** A man who can explain the trade in three sentences is
    visibly someone who could teach it, which is the argument the training band is making.
 
-If he wants it shorter, cut the third step. Do not cut the pull-quote.
+If he wants it shorter, cut the third step.
+
+**Do not put his phone-call phrasing back on the page as a quotation.** Nothing he said on that
+call was said for publication, and quoting rough notes verbatim makes a plain-spoken man sound
+strange. If a real quote from him would help, ask him for one directly and let him approve it.
 
 ---
 
