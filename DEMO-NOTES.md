@@ -29,7 +29,11 @@ the top of every page — remove it before launch** (see "Before this goes live"
 Source: <https://www.experience.com/reviews/ac-servicemaster-llc-22557209> (aggregating Google).
 This filled in most of what was missing after the call.
 
-- **4.71 average from 65 Google reviews** — 88% five-star, 5% four, 3% three, 0% two, 5% one
+- **4.71 average from 65 Google reviews** — the real distribution is 88% five-star, 5% four,
+  3% three, 0% two and 5% one. The page shows **the 4.71 and the review count only**; the
+  five-bar breakdown was taken off on 25 Sep. Do not publish a breakdown with the one-star row
+  shown as 0% — it is labelled as his Google distribution, a customer can check it against his
+  listing in seconds, and 4.71 with no one-star ratings does not add up.
 - **In the trade since 1989** — the profile says "37 Years of Experience" and "Year Started 1989"
 - **Owner-operator**, his own description: *"The owner (Paul Diggs) takes personal pride in the
   hands-on experience of all the work completed"*
@@ -44,7 +48,11 @@ Walker G., Tom S., Ourst8ofmind, The M. (Trophies Unlimited — the commercial o
 Jessica C. **Do not edit the wording of a quote.** Names are shown as first name + initial, which
 is how they are already published.
 
-The page says **4.71, not 5.0**, because that is the real number. Do not round it up.
+The page says **4.71, not 5.0**, because that is the real number. Do not round it up, and do
+not quote a review Paul did not receive.
+
+**No one-star review is shown anywhere.** All six streamed cards are five-star, and the May 2024
+one-star ("No longer doing service") was never put on the page.
 
 ---
 

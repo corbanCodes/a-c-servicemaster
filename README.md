@@ -11,6 +11,7 @@ rebuilt 24 Sep on the Clear Look Cleaning design system.**
 - **Address:** 356A Edgefield Road, North Augusta, SC 29841
 - **Repo:** `git@github.com:corbanCodes/a-c-servicemaster.git`
 - **Reviews:** 4.71 from 65 Google reviews, six quoted verbatim on the page
+- **Photography:** Paul's own job photos throughout, plus a 20-photo Recent Work carousel
 - **Domain:** not registered yet — the page assumes `acservicemaster.com` in its canonical and
   Open Graph tags. Change those if he buys something else.
 
@@ -32,7 +33,9 @@ call bar on mobile. `DEMO-NOTES.md` explains what to add back if that ever chang
 | `credits.html` | Photo credits and licences (linked from the footer) |
 | `assets/css/style.css` | All styling |
 | `assets/js/main.js` | Nav, dropdowns, reveal-on-scroll (no form handler by design) |
-| `assets/img/` | Licensed stock photography (see `ATTRIBUTION.md`) |
+| `assets/img/` | Paul's own job photos, plus five licensed stock images (see `ATTRIBUTION.md`) |
+| `assets/img/work/` | The 20 Recent Work gallery photos |
+| `client-provided-photos/` | The originals he supplied, untouched |
 | `netlify.toml` | Netlify config — no build step, publish from the repo root |
 | `DEMO-NOTES.md` | What is real, what is stock, what to ask him |
 | `ATTRIBUTION.md` | Photo credits and licences |
