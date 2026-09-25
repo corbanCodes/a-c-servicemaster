@@ -56,7 +56,7 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;line-height:1.12;col
 .brand-name .accent{color:var(--sky-deep)}
 .brand-mark{width:34px;height:34px;flex:none}
 
-.main-nav{display:flex;align-items:center;gap:26px;font-weight:600;font-size:15.5px}
+.main-nav{display:flex;align-items:center;gap:26px;font-weight:600;font-size:15.5px;min-width:0}
 .main-nav>a,.nav-drop>button{color:var(--ink);background:none;border:0;font:inherit;font-weight:600;cursor:pointer;display:inline-flex;align-items:center;gap:5px;padding:6px 0}
 .main-nav>a:hover,.nav-drop>button:hover{color:var(--navy)}
 .main-nav>a.active{color:var(--navy);box-shadow:0 2px 0 var(--sky)}
@@ -68,10 +68,10 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;line-height:1.12;col
 .drop .drop-head{font-size:12px;font-weight:700;letter-spacing:1.4px;text-transform:uppercase;color:var(--ink-soft);padding:8px 12px 4px}
 .drop-cols{display:grid;grid-template-columns:1fr 1fr;min-width:430px}
 
-.nav-cta{display:flex;align-items:center;gap:14px}
+.nav-cta{display:flex;align-items:center;gap:14px;flex:none}
 .nav-phone{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:var(--navy-ink);white-space:nowrap}
 .nav-phone .icon{color:var(--sky-deep)}
-@media(max-width:1080px){.nav-phone{display:none}}
+@media(max-width:1320px){.nav-phone{display:none}}
 
 .nav-toggle{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:8px}
 .nav-toggle span{width:24px;height:2.5px;background:var(--navy-ink);border-radius:2px;transition:.25s}
@@ -89,7 +89,7 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;line-height:1.12;col
 }
 
 /* ---------- buttons ---------- */
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;font-family:var(--font-body);font-weight:700;letter-spacing:.3px;border-radius:11px;border:2px solid transparent;cursor:pointer;transition:.2s;text-align:center}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;font-family:var(--font-body);font-weight:700;letter-spacing:.3px;border-radius:11px;border:2px solid transparent;cursor:pointer;transition:.2s;text-align:center;white-space:nowrap}
 .btn-sky{background:var(--sky);color:var(--navy-ink);border-color:var(--sky)}
 .btn-sky:hover{background:var(--sky-deep);border-color:var(--sky-deep);color:#fff;transform:translateY(-1px)}
 .btn-navy{background:var(--navy);color:#fff;border-color:var(--navy)}
@@ -445,9 +445,11 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;line-height:1.12;col
   .demo-bar .demo-tail{display:none}
   .demo-bar{font-size:12px;letter-spacing:.6px}
 }
-@media(max-width:560px){
-  /* the sticky call bar already covers calling — give the hamburger room */
+@media(max-width:760px){
+  /* the sticky call bar takes over here, so the header CTA is a duplicate */
   .nav-cta .btn-sm{display:none}
+}
+@media(max-width:560px){
   .brand-name{font-size:17px}
   .nav-wrap{height:64px}
 }
