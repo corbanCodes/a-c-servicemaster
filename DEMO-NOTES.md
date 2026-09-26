@@ -29,11 +29,9 @@ the top of every page — remove it before launch** (see "Before this goes live"
 Source: <https://www.experience.com/reviews/ac-servicemaster-llc-22557209> (aggregating Google).
 This filled in most of what was missing after the call.
 
-- **4.71 average from 65 Google reviews** — the real distribution is 88% five-star, 5% four,
-  3% three, 0% two and 5% one. The page shows **the 4.71 and the review count only**; the
-  five-bar breakdown was taken off on 25 Sep. Do not publish a breakdown with the one-star row
-  shown as 0% — it is labelled as his Google distribution, a customer can check it against his
-  listing in seconds, and 4.71 with no one-star ratings does not add up.
+- **4.71 average from 65 Google reviews** — 57 five-star, 3 four, 2 three, 0 two, 3 one-star.
+  That reconciles exactly to 4.71. The breakdown bars are back on the page as of 26 Sep at the
+  client's request, showing the one-star row at its true 5%.
 - **In the trade since 1989** — the profile says "37 Years of Experience" and "Year Started 1989"
 - **Owner-operator**, his own description: *"The owner (Paul Diggs) takes personal pride in the
   hands-on experience of all the work completed"*
@@ -51,8 +49,8 @@ is how they are already published.
 The page says **4.71, not 5.0**, because that is the real number. Do not round it up, and do
 not quote a review Paul did not receive.
 
-**No one-star review is shown anywhere.** All six streamed cards are five-star, and the May 2024
-one-star ("No longer doing service") was never put on the page.
+**The homepage marquee streams six five-star quotes.** `reviews.html` carries **all 65**,
+including the three one-star reviews, with a rating filter.
 
 ---
 
@@ -178,3 +176,41 @@ strange. If a real quote from him would help, ask him for one directly and let h
 - Business hours? After-hours or emergency calls, and does he charge differently?
 - Photos — anything at all, even phone photos of a job in progress
 - Domain preference
+
+
+---
+
+## reviews.html — all 65, hosted here
+
+Added 26 Sep. Every Google review, scraped from his Experience.com profile, reproduced verbatim
+with a rating filter (All / 5 / 4 / 3 / 1). The homepage "Read all 65 reviews" button points here
+instead of off to experience.com.
+
+**Two judgement calls worth his attention:**
+
+1. **Arielle G., one star, May 2024: "No longer doing service."** Factually about the wind-down
+   before the move, but on the page it reads as *this business is closed*. It is included because
+   the brief was all of them — but it is the one review that actively costs him calls, and it is
+   sitting on his live Google listing too.
+2. **Kay H., one star.** Repeat repairs on an installed unit, and a sharp closing line about the
+   Bible verses that used to be on his old site. It is old and it is one of three, but he should
+   see it before a customer quotes it back to him.
+
+Say the word and either can come off the page in a minute — the honest version is to drop both or
+keep both, not to keep the polite one and bin the other.
+
+**No dates are shown.** Experience.com's import stamped whole batches of reviews with a single
+date (dozens all read "February 28th"), so the dates are not trustworthy enough to publish.
+
+---
+
+## South Carolina only (26 Sep)
+
+Every reference to Georgia is off the site — Augusta, Martinez, Evans, Grovetown, Hephzibah,
+Harlem, Blythe, Appling, the two Georgia area cards, "both sides of the river", and "CSRA"
+(which spans both states and so implied Georgia coverage).
+
+The site now says **North Augusta and Aiken County, South Carolina**. Note that North Augusta is
+itself in South Carolina and stays.
+
+**The page nowhere says he is not licensed in Georgia** — it simply does not claim Georgia.

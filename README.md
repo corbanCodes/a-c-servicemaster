@@ -3,9 +3,10 @@
 One-page site by [60 Minute Sites](https://60minutesites.com). **Demo built 23 Sep 2026,
 rebuilt 24 Sep on the Clear Look Cleaning design system.**
 
-- **Client:** Paul Diggs — A/C Service Master, North Augusta, South Carolina
+- **Client:** Paul Diggs — A/C ServiceMaster, North Augusta, South Carolina
 - **Slogan:** *We Move Heat*
 - **Goal:** get phone calls for HVAC service work, with a visible hint of the training lab
+- **Service area:** Aiken County, **South Carolina only** — no Georgia, he is not licensed there
 - **Phone (the only conversion on the page):** (803) 661-3537
 - **Email:** acsmhvac@outlook.com
 - **Address:** 356A Edgefield Road, North Augusta, SC 29841
@@ -29,12 +30,15 @@ call bar on mobile. `DEMO-NOTES.md` explains what to add back if that ever chang
 | File | What it is |
 |---|---|
 | `index.html` | The whole site — one page, anchor nav |
+| `reviews.html` | All 65 Google reviews, hosted here, with a rating filter |
 | `404.html` | Not-found page |
 | `credits.html` | Photo credits and licences (linked from the footer) |
 | `assets/css/style.css` | All styling |
 | `assets/js/main.js` | Nav, dropdowns, reveal-on-scroll (no form handler by design) |
 | `assets/img/` | Paul's own job photos, plus five licensed stock images (see `ATTRIBUTION.md`) |
 | `assets/img/work/` | The 20 Recent Work gallery photos |
+| `assets/video/` | 44s reel built from his job photos |
+| `new-logo/` | The logo he supplied |
 | `client-provided-photos/` | The originals he supplied, untouched |
 | `netlify.toml` | Netlify config — no build step, publish from the repo root |
 | `DEMO-NOTES.md` | What is real, what is stock, what to ask him |

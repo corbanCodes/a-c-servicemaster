@@ -36,16 +36,17 @@
     });
   });
 
-  // Reveal on scroll
+  // Reveal on scroll — fade-up, directional slides, zoom and staggered grids
+  var REVEALS = '.reveal, .reveal-left, .reveal-right, .reveal-zoom, .reveal-stagger';
   if ('IntersectionObserver' in window) {
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
         if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }
       });
     }, { threshold: 0.12 });
-    document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+    document.querySelectorAll(REVEALS).forEach(function (el) { io.observe(el); });
   } else {
-    document.querySelectorAll('.reveal').forEach(function (el) { el.classList.add('in'); });
+    document.querySelectorAll(REVEALS).forEach(function (el) { el.classList.add('in'); });
   }
 
 
