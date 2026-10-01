@@ -71,7 +71,7 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;line-height:1.12;col
 .nav-cta{display:flex;align-items:center;gap:14px;flex:none}
 .nav-phone{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:var(--navy-ink);white-space:nowrap}
 .nav-phone .icon{color:var(--sky-deep)}
-@media(max-width:1320px){.nav-phone{display:none}}
+@media(max-width:1460px){.nav-phone{display:none}}
 
 .nav-toggle{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:8px}
 .nav-toggle span{width:24px;height:2.5px;background:var(--navy-ink);border-radius:2px;transition:.25s}
@@ -703,3 +703,39 @@ html{scroll-padding-top:130px}
 @media(max-width:920px){
   .reveal-left,.reveal-right{transform:translateY(28px)}
 }
+
+/* ---------- free second opinion band ---------- */
+.second-op{
+  background:linear-gradient(135deg,var(--navy-ink) 0%,#16335c 55%,var(--navy-ink) 100%);
+  color:#fff;position:relative;overflow:hidden;padding:68px 0
+}
+.second-op::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(760px 340px at 82% 18%,rgba(232,85,45,.3),transparent 66%)
+}
+.second-op .container{position:relative;z-index:1}
+.so-inner{max-width:780px;margin:0 auto;text-align:center}
+.so-flag{
+  display:inline-block;background:var(--flame);color:#fff;
+  font-family:var(--font-body);font-weight:800;font-size:12.5px;
+  letter-spacing:1.6px;text-transform:uppercase;padding:7px 18px;border-radius:999px;margin-bottom:20px
+}
+.second-op .section-title{color:#fff;font-size:clamp(26px,4vw,40px);line-height:1.15;margin-bottom:18px}
+.so-accent{color:#ff9f7d}
+.so-accent sup,.hero-points sup{font-size:.55em;top:-.6em;position:relative}
+.so-lede{color:rgba(255,255,255,.84);font-size:17.5px;line-height:1.6;margin:0 auto 26px;max-width:66ch}
+.so-lede strong{color:#fff}
+.so-cta{display:flex;justify-content:center;flex-wrap:wrap;gap:12px}
+.so-fine{
+  color:rgba(255,255,255,.58);font-size:13.5px;line-height:1.55;
+  margin:22px auto 0;max-width:62ch
+}
+.so-fine sup{font-size:.8em}
+@media(max-width:760px){
+  .second-op{padding:52px 0}
+  .so-lede{font-size:16px}
+  .so-cta .btn{width:100%}
+}
+/* the hero now carries four points, so let them wrap evenly */
+.hero-points{max-width:640px}
+.hero-points em{font-style:normal;color:var(--sky);font-weight:700}
