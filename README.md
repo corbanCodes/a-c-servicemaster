@@ -16,8 +16,7 @@ rebuilt 24 Sep on the Clear Look Cleaning design system.**
 - **Domain:** not registered yet — the page assumes `acservicemaster.com` in its canonical and
   Open Graph tags. Change those if he buys something else.
 
-> **This still has the demo banner on it.** Remove it before launch — `DEMO-NOTES.md`,
-> "Before this goes live", item 1.
+> **Live for a paying client.** Demo banner removed 30 Sep 2026.
 
 ## Phone calls only
 

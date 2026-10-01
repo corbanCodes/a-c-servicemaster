@@ -1,8 +1,7 @@
 # Demo notes — A/C Service Master (Paul Diggs)
 
 Built 23 Sep 2026 from one phone call; rebuilt 24 Sep on the Clear Look Cleaning
-(`howard-vanderpool`) design system at the client's request. One page. **Demo banner is live at
-the top of every page — remove it before launch** (see "Before this goes live", item 1).
+(`howard-vanderpool`) design system at the client's request. One page. **Live for a paying client since 30 Sep 2026** — the demo banner has been removed.
 
 ---
 
@@ -88,9 +87,7 @@ the `action`. The Clear Look markup in `howard-vanderpool/index.html` is the pat
 
 ## Before this goes live
 
-1. **Remove the demo banner.** Delete the `<div class="demo-bar">` line from `index.html`,
-   `404.html` and `credits.html`, and the `.demo-bar` block at the bottom of
-   `assets/css/style.css`. Each one is marked with a comment.
+1. ~~Remove the demo banner.~~ **Done 30 Sep** — markup and CSS both deleted.
 2. **Domain.** Nothing is registered. `index.html` currently assumes
    `https://acservicemaster.com/` in the canonical tag, the `og:url`, the `og:image` and the
    JSON-LD `url`/`image`. `acservicemaster.com` may well be taken — `acsmhvac.com` matches his

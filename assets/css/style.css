@@ -428,23 +428,6 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;line-height:1.12;col
   .reveal{opacity:1!important;transform:none!important}
 }
 
-/* ---------- demo bar (remove this block and the markup when the site goes live) ---------- */
-.demo-bar{
-  position:relative;z-index:120;display:flex;align-items:center;justify-content:center;
-  gap:10px;flex-wrap:wrap;padding:8px 20px;text-align:center;line-height:1.45;
-  background:linear-gradient(90deg,#0c1f3a,#16335c 55%,#0c1f3a);
-  color:#bed3ea;font-size:13.5px
-}
-.demo-bar b{color:#fff;font-family:var(--font-display);font-weight:700;letter-spacing:1.2px}
-.demo-bar a{color:#8ecdf5;font-weight:600}
-.demo-bar a:hover{color:#fff;text-decoration:underline}
-.demo-dot{width:8px;height:8px;border-radius:50%;background:var(--flame);box-shadow:0 0 0 3px rgba(232,85,45,.25);flex:none}
-@media(max-width:700px){.demo-bar{font-size:12.5px;padding:7px 14px}}
-@media(max-width:700px){
-  /* keep the demo flag to one line on a phone; the full wording stays on desktop */
-  .demo-bar .demo-tail{display:none}
-  .demo-bar{font-size:12px;letter-spacing:.6px}
-}
 @media(max-width:760px){
   /* the sticky call bar takes over here, so the header CTA is a duplicate */
   .nav-cta .btn-sm{display:none}
@@ -723,6 +706,7 @@ html{scroll-padding-top:130px}
 .second-op .section-title{color:#fff;font-size:clamp(26px,4vw,40px);line-height:1.15;margin-bottom:18px}
 .so-accent{color:#ff9f7d}
 .so-accent sup,.hero-points sup{font-size:.55em;top:-.6em;position:relative}
+.so-star{color:#ff9f7d;font-size:.5em;top:-.62em;position:relative;margin-right:.06em;font-weight:700}
 .so-lede{color:rgba(255,255,255,.84);font-size:17.5px;line-height:1.6;margin:0 auto 26px;max-width:66ch}
 .so-lede strong{color:#fff}
 .so-cta{display:flex;justify-content:center;flex-wrap:wrap;gap:12px}
